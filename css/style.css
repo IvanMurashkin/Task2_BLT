@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.pointer-starting-point label {
+    display: block;
+}
+
+.pointer-starting-point-btn {
+    margin-top: 15px;
+    padding: 0 10px;
+    display: block;
+}
+
+.moves-popup {
+    display: none;
+    border: 1px solid #ccc;
+    width: 300px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+
+.moves-popup-btn-close {
+    float: right;
+    color: #fff;
+    margin-top: 38px;
+    border-radius: 5px;
+    background-color: #42aaff;
+    border: none;
+    padding: 5px 25px;
+}
+
+.moves {
+    margin-top: 20px;
+    display: block;
+}

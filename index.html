@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+                <form action="" class="pointer-starting-point">
+                    <label for="second-number"><b>Исходная положение:</b></label>
+                    <input type="text" id="original-position" pattern="/[A-Ha-h]{1}[1-8]{1}/" maxlength="2" minlength="2"> 
+                    <button class="pointer-starting-point-btn">Ок</button>
+                </form>
+            </div>
+            <div class="moves-popup">
+                <span>Возможные варианты хода:</span>
+                <span class="moves"></span>
+                <button class="moves-popup-btn-close">ОК</button>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
